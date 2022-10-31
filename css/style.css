@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 17px;
+    color: #1d1d1f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.action-btn{
+    background-color: var(--buy-btn);
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 17px;
+    border-radius: 30px;
+    color: var(--color-white);
+}
+.txt-center{
+    text-align: center;
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.container-padding{
+    padding: 8px 0;
+}
+.page-container{
+    background-color: #F5F5F7;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    background-color: var(--navbar);
+}
+.nav-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container ul li{
+    padding: 8px 12px;
+}
+.nav-links{
+    color: var(--navlink);
+    font-size: 12px;
+    padding: 0 6px;
+}
+.nav-links:hover{
+    color: var(--color-white);
+}
+.chapternav-wrapper{
+    background-color: #000;
+}
+.chapternav-items{
+    padding: 8px 0 14px 0;
+}
+.chapternav-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chapternav-items ul li{
+    padding: 0 16px;
+}
+.chapternav-icons{
+    width: 41px;
+    height: 54px;
+    display: block;
+    margin-bottom: 5px;
+}
+.chapternav-label{
+    font-size: 12px;
+    display: block;
+    color: var(--color-white);
+}
+.chapternav-new{
+    font-size: 10px;
+    color: var(--color-new);
+    display: block;
+    text-align: center;
+}
+.festiveoff-wrapper{
+    background: rgb(57,22,95);
+    background: linear-gradient(90deg, rgba(57,22,95,1) 0%, rgba(123,64,120,1) 100%);
+    padding: 15px 0;
+}
+.festiveoff-wrapper p{
+    text-align: center;
+    color: var(--color-white);
+    font-size: 14px;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+}
+.shop-link{
+    font-size: 14px;
+    color: var(--color-white);
+}
+.shop-link:hover{
+    text-decoration: underline;
+}
+.hero{
+    width: 100%;
+    background-color: #000;
+    padding-top: 68px;
+    padding-bottom: 66px;
+}
+.hero-content{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-ipad-air{
+    width: 680px;
+    height: 695px;
+    background-size: 680px 695px;
+    background-repeat: no-repeat;
+    background-image: url('../images/ipad_air.jpg');
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+}
+.hero-content{
+    display: flex;
+}
+.hero-info-text{
+    width: 20%;
+}
+.image-info-img{
+    width: 80%;
+}
+.hero-new{
+    font-size: 12px !important;
+}
+.hero-headline{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+.tag-line{
+    font-size: 24px;
+    color: var(--color-white);
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.prize-display{
+    font-size: 17px;
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 1.4;
+}
+.link-more{
+    color: var(--link);
+    font-size: 17px;
+    display: block;
+}
+.link-more:hover{
+    text-decoration: underline;
+}
+.buy-btn{
+    margin: 12px 0;
+}
+.section-ipad-pro{
+    padding: 68px 0;
+    background-color: var(--color-white);
+    margin: 12px 0;
+}
+.section-content{
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url('../images/ipad_pro.jpg') no-repeat;
+}
+.ipad-pro{
+    width: 1335px;
+    height: 598px;
+    background-size: 1335px 598px;
+}
+
